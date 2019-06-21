@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/wufuzeng/FZInputAccessoryView"
-  s.screenshots  = "https://mlboos.oss-cn-hangzhou.aliyuncs.com/CommunityFile%2FUserUpLoadFile%2FImages%2F20190621022551146-3991.jpg"
+  s.screenshots  = "https://raw.githubusercontent.com/wufuzeng/FZInputAccessoryView/master/Screenshots/771561095316_.pic.jpg"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
