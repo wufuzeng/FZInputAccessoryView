@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FZInputAccessoryView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   # s.summary      = "A short description of FZInputAccessoryView."
   s.summary      = "键盘辅助视图"
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/wufuzeng/FZInputAccessoryView"
-  s.screenshots  = "https://github.com/wufuzeng/FZInputAccessoryView/blob/master/Screenshots/771561095316_.pic.jpg", "https://github.com/wufuzeng/FZInputAccessoryView/blob/master/Screenshots/771561095316_.pic.jpg"
+  s.screenshots  = "https://mlboos.oss-cn-hangzhou.aliyuncs.com/CommunityFile%2FUserUpLoadFile%2FImages%2F20190621022551146-3991.jpg"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
