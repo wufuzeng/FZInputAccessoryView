@@ -1,0 +1,20 @@
+PODS:
+  - FZInputAccessoryView (0.0.1)
+  - FZMyLibiary (0.0.1)
+
+DEPENDENCIES:
+  - FZInputAccessoryView
+  - FZMyLibiary
+
+SPEC REPOS:
+  https://github.com/wufuzeng/FZBaseSpec.git:
+    - FZInputAccessoryView
+    - FZMyLibiary
+
+SPEC CHECKSUMS:
+  FZInputAccessoryView: af75a0813e62f7543c6e6be0fe6aa17693dd81b6
+  FZMyLibiary: 77acfa452618d4e24ca562b224b136ba8a08bad2
+
+PODFILE CHECKSUM: 97eee80e8f8372004aa93c441cc46b975f92338b
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,6 @@
+framework module Pods_WFZTest {
+  umbrella header "Pods-WFZTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

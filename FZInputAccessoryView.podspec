@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/wufuzeng/FZInputAccessoryView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/wufuzeng/FZInputAccessoryView/Screenshots/771561095316_.pic.jpg", "https://github.com/wufuzeng/FZInputAccessoryView/Screenshots/771561095316_.pic.jpg"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -84,12 +84,11 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wufuzeng/FZInputAccessoryView.git" }
+  #s.source       = { :git => "https://github.com/wufuzeng/FZInputAccessoryView.git" }
   ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
   ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
   ## 待测试通过完成后我们再发布指定release版本，使用如下方式
-  #s.source       = { :git => "http://EXAMPLE/O2View.git", :tag => version }
-  #s.source       = { :git => "https://github.com/wufuzeng/FZInputAccessoryView.git", :tag => "#{s.version}" } 
+  s.source       = { :git => "https://github.com/wufuzeng/FZInputAccessoryView.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

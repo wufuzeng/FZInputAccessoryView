@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wufuzeng/FZBaseSpec.git'
+target ‘WFZTest’ do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  #use_frameworks!
+
+
+  # Pods for WFZTest
+ 
+
+#    pod 'FZBaseSpec',:git => 'https://github.com/wufuzeng/FZBaseSpec.git'
+#    pod 'FZBaseLibiary','~> 0.0.11'
+#
+    pod 'FZMyLibiary'
+    pod 'FZInputAccessoryView'
+#
+
+#  target 'WFZTestTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+#
+#  target 'WFZTestUITests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+
+end
