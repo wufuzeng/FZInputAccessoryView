@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FZInputAccessoryView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   # s.summary      = "A short description of FZInputAccessoryView."
   s.summary      = "键盘辅助视图"
 
