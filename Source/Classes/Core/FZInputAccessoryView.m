@@ -52,7 +52,6 @@
     }else{
         [items removeObject:self.btn_previous];
         //self.lbl_placeholder.width += margin;
-        
         CGFloat width = self.lbl_placeholder.frame.size.width + margin;
         CGRect nrect = CGRectMake(self.lbl_placeholder.frame.origin.x, self.lbl_placeholder.frame.origin.y, width, self.lbl_placeholder.frame.size.height);
         self.lbl_placeholder.frame = nrect;
@@ -178,7 +177,7 @@
         _lbl_placeholder = [[UILabel alloc]init];
         _lbl_placeholder.font = [UIFont systemFontOfSize:14];
         _lbl_placeholder.text = @"";
-        _lbl_placeholder.textColor = [UIColor grayColor];//[UIColor colorWithRed:10 green:10 blue:10 alpha:1];//#afafaf;
+        _lbl_placeholder.textColor = [UIColor grayColor]; 
         _lbl_placeholder.textAlignment = NSTextAlignmentCenter;
     }
     return _lbl_placeholder;
