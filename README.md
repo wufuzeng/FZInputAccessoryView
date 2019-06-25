@@ -73,8 +73,10 @@ textField.inputAccessoryView = accessoryView;
 
 wufuzeng, wufuzeng_lucky@sina.com
 
+#### 纵有疾风起，人生不言弃
+
 ## 许可证
 
 FZInputAccessoryView is available under the MIT license. See the LICENSE file for more info.
 
-#### 纵有疾风起，人生不言弃
+
