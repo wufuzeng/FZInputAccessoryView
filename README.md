@@ -1,13 +1,14 @@
+# 如果你有需要，而我这里正好有，请给一颗小星星.
+
 <p align="center" >
-<img src="https://raw.githubusercontent.com/wufuzeng/FZInputAccessoryView/master/Screenshots/771561095316_.pic.jpg" title="FZInputAccessoryView" float=left>
-
-如果你有需要，而我这里正好有，请给一个Star.
-
+<img src="https://raw.githubusercontent.com/wufuzeng/FZInputAccessoryView/master/Screenshots/771561095316_.pic.jpg" title="FZInputAccessoryView" float=left width = '200px'>
 </p>
 
 
 # FZInputAccessoryView
 键盘辅助视图
+1.为切换文本框输入添加自定义事件。
+2.为放弃编辑添加自定义事件。
 
 
 
