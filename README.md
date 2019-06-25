@@ -34,6 +34,42 @@ it, simply add the following line to your Podfile:
 pod 'FZInputAccessoryView'
 ```
 
+## How To Use
+
+* Objective-C
+
+```objective-c
+
+UITextField *textField = [UITextField new];
+self.textField = textField;
+
+textField.placeholder = @"placeholder";
+textField.backgroundColor = [UIColor yellowColor];
+textField.frame = CGRectMake(0, 0, 200, 40);
+[self.view addSubview:textField];
+textField.center = self.view.center;
+
+__weak __typeof(self) weakSelf = self;
+FZInputAccessoryView * accessoryView = [FZInputAccessoryView new];
+accessoryView.placeholer = @"请输入相关文字...";
+accessoryView.previousTitle = @"上一个";
+accessoryView.nextTitle = @"下一个";
+accessoryView.doneTitle = @"确定";
+
+accessoryView.previousBtnClick = ^(NSInteger insex) {
+
+};
+
+accessoryView.nextBtnClick = ^(NSInteger insex) {
+
+};
+accessoryView.doneBtnClick = ^(NSInteger insex) {
+[weakSelf.textField resignFirstResponder];
+};
+
+textField.inputAccessoryView = accessoryView;;
+```
+
 ## Author
 
 wufuzeng, wufuzeng_lucky@sina.com

@@ -41,9 +41,9 @@
     __weak __typeof(self) weakSelf = self;
     FZInputAccessoryView * accessoryView = [FZInputAccessoryView new];
     accessoryView.placeholer = @"请输入相关文字...";
-//    accessoryView.previousTitle = @"😁";
-//    accessoryView.nextTitle = @"😯";
-//    accessoryView.doneTitle = @"👌";
+    accessoryView.previousTitle = @"上一个";
+    accessoryView.nextTitle = @"下一个";
+    accessoryView.doneTitle = @"确定";
     
     accessoryView.previousBtnClick = ^(NSInteger insex) {
         
@@ -56,7 +56,6 @@
         [weakSelf.textField resignFirstResponder];
     };
     
-    [accessoryView update];
     textField.inputAccessoryView = accessoryView;;
     
     
